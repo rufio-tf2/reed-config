@@ -1,9 +1,7 @@
 // Defaults
 
 360controller*
-chapter1.cfg
-chapter2.cfg
-chapter3.cfg
+chapter*
 config_default.cfg
 config.cfg
 mapcycle*
