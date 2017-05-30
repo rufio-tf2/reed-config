@@ -2,24 +2,24 @@
 
 ## Table of Contents
 
-1. [Download files](#download-files)
-1. [Install](#install)
-1. [autoexec.cfg](#autoexeccfg)
-- [Alert Sniper](#alert-sniper)
-- [Alert Spy-On-Engi](#alert-spy-on-engi)
-- [Shift modifier](#shift-modifier)
-- [Silly](#silly)
-1. [reset.cfg](#resetcfg)
-1. [Spy](#spy)
-- [Custom shift modifier](#custom-shift-modifier-1)
-1. [Soldier](#soldier)
-- [Custom shift modifier](#custom-shift-modifier-2)
+- [Download files](#download-files)
+- [Install](#install)
+- [autoexec.cfg](#autoexeccfg)
+  - [Alert Sniper](#alert-sniper)
+  - [Alert Spy-On-Engi](#alert-spy-on-engi)
+  - [Shift modifier](#shift-modifier)
+  - [Silly](#silly)
+- [reset.cfg](#resetcfg)
+- [Spy](#spy)
+  - [Custom shift modifier](#custom-shift-modifier-1)
+- [Soldier](#soldier)
+  - [Custom shift modifier](#custom-shift-modifier-2)
 
 ## Download Files
 
 Most TF2 players aren't programmers, and don't have git, and that's fine.
 
-You can download a zip of this repo [here](https://github.com/reeddunkle/cfg/archive/master.zip), or by clicking the green "Clone or download" button on the top right of this [repo's homepage](https://github.com/reeddunkle/cfg)
+You can download a zip of this repo [here](https://github.com/reeddunkle/cfg/archive/master.zip), or by clicking the green "Clone or download" button on the top right of this repo's [homepage](https://github.com/reeddunkle/cfg)
 
 ![Download ZIP](http://i.imgur.com/lF3GOYJ.png)
 
@@ -38,7 +38,7 @@ Restart TF2, and the `autoexec.cfg` will automatically run.
 
 ## autoexec.cfg
 
-[Link](./autoexec.cfg) to file
+[[File](./autoexec.cfg)]
 
 ### null
 
@@ -82,8 +82,6 @@ Pressing HOME makes the SPACE button execute a jump and call for a dispenser. Pr
 
 ## reset.cfg
 
-[Link](./reset.cfg) to file
-
 This is called at the start of each class-specific cfg file to reset the keys I play with to their default behavior.
 
 A lot of this is unnecessary and redundant. I'll probably pare this down in future commits. (For example, I never rebind, and never will rebind the 1, 2, or 3 buttons.)
@@ -94,8 +92,6 @@ The relevant resets, which I do fiddle with for specific classes, are the MOUSE 
 
 ## Spy
 
-[Link](./spy.cfg) to file
-
 ### Custom Shift Modifier
 
 Gets the base variables from [`get_shift_alert_base_variables.cfg`](./get_shift_alert_base_variables.cfg), re-writes `bindM4-default` to `bind MOUSE4 lastdisguise`, re-declare `+setBinds` and `-setBinds` (using the new `bindM4-default`), and re-binds these to the SHIFT button.
@@ -105,8 +101,6 @@ Gets the base variables from [`get_shift_alert_base_variables.cfg`](./get_shift_
 [🔝 Back to top](#table-of-contents)
 
 ## Soldier
-
-[Link](./soldier.cfg) to file
 
 ### Rocket Jump
 
@@ -119,8 +113,6 @@ Like the [Spy](#spy), I declare a custom `bindM4-default` to use the Rocket Jump
 [🔝 Back to top](#table-of-contents)
 
 ## Pyro
-
-[Link](./pyro.cfg) to file
 
 I see people using a "Detonator Jump" script for use with the Pyro's [Detonator](https://wiki.teamfortress.com/wiki/Detonator). I'll probably set that up eventually.
 
