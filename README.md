@@ -38,8 +38,6 @@ Restart TF2, and the `autoexec.cfg` will automatically run.
 
 ## autoexec.cfg
 
-[[File](./autoexec.cfg)]
-
 ### null
 
 Create global `null` variable, set to an empty string
@@ -125,6 +123,8 @@ You can always fork and edit. If you notice better ways that I could be doing th
 ## Set up your own cfg repo
 
 My `.gitignore` file lists all the default files. Copy it into your `cfg/` directory. You can turn the directory into a git repo (run `git init`) and it will ignore the default files, and only add the custom files you set up.
+
+In the future, I'll add more detailed instructions for those new to GitHub.
 
 [🔝 Back to top](#table-of-contents)
 
