@@ -1,30 +1,31 @@
 # Team Fortress 2 Scripts
 
-Contents:
+## Table of Contents
 
-[autoexec.cfg](#autoexeccfg)
+1. [Download files](#download-files)
+1. [Install](#install)
+1. [autoexec.cfg](#autoexeccfg)
 - [Alert Sniper](#alert-sniper)
 - [Alert Spy-On-Engi](#alert-spy-on-engi)
 - [Shift modifier](#shift-modifier)
 - [Silly](#silly)
-
-[reset.cfg](#resetcfg)
-
-[Spy](#spy)
+1. [reset.cfg](#resetcfg)
+1. [Spy](#spy)
 - [Custom shift modifier](#custom-shift-modifier-1)
-
-[Soldier](#soldier)
+1. [Soldier](#soldier)
 - [Custom shift modifier](#custom-shift-modifier-2)
+
+## Download Files
+
+Most TF2 players aren't programmers, and don't have git, and that's fine.
+
+You can download a zip of this repo [here](https://github.com/reeddunkle/cfg/archive/master.zip), or by clicking the green "Clone or download" button on the top right of this [repo's homepage](https://github.com/reeddunkle/cfg)
+
+![Download ZIP](http://i.imgur.com/lF3GOYJ.png)
 
 ## Install
 
-Clone the repo:]
-
-```
-git clone https://github.com/reeddunkle/cfg
-```
-
-Place the `.cfg` files in the `cfg/` directory inside your `Steam/steamapps/common/Team Fortress 2/tf/cfg` folder:
+Once you've got this repo on your machine, place, copy, or move the `.cfg` files into your Steam's `cfg/` folder.
 
 If you've chosen a custom location for your Steam folder, then you know where it is. If you used the default install path, then it may be:
 
@@ -33,7 +34,7 @@ If you've chosen a custom location for your Steam folder, then you know where it
 
 Restart TF2, and the `autoexec.cfg` will automatically run.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
 
 ## autoexec.cfg
 
@@ -41,7 +42,7 @@ Restart TF2, and the `autoexec.cfg` will automatically run.
 
 ### null
 
-Create `null` variable set to an empty string
+Create global `null` variable, set to an empty string
 
 ### Utility
 
@@ -56,9 +57,11 @@ I added calls which alert your team of two vulnerabilities for which there are n
 
 ##### Alert Spy-On-Engi
 
-[`alertSpyOnEngi`](./autoexec.cfg#L9) - alls the "Incoming!" alert, and prints a message informing your team that a spy is actively sapping the engineer's buildings.
+[`alertSpyOnEngi`](./autoexec.cfg#L9) - calls the "Incoming!" alert, and prints a message informing your team that a spy is actively sapping the engineer's buildings.
 
 If a spy catches an engineer alone, it can be difficult for him to deal with him by himself while preserving all of his buildings. Often he has to choose between running the spy off, or removing his sappers.
+
+Arguably this should call the "Help!" alert (`voicemenu 2 0`), but it's less common. I think I trust my teammates to react quicker to "Incoming!".
 
 #### Shift Modifier
 
@@ -69,7 +72,7 @@ The variable [`-setBinds`](./autoexec.cfg#20) resets those MOUSE buttons to thei
 
 Finally, `+setBinds` is bound to the SHIFT button. Pressing shift calls `+setBinds`, releasing shift calls `-setBinds`, a hacky way to use SHIFT as a modifier key.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
 
 ### Silly
 
@@ -87,7 +90,7 @@ A lot of this is unnecessary and redundant. I'll probably pare this down in futu
 
 The relevant resets, which I do fiddle with for specific classes, are the MOUSE buttons and the SPACE button.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
 
 ## Spy
 
@@ -99,7 +102,7 @@ Gets the base variables from [`get_shift_alert_base_variables.cfg`](./get_shift_
 
 **Note:** There's probably a better way to structure these files. Modularizing code in these scripts is inherently really messy. I'm open to ideas and suggestions.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
 
 ## Soldier
 
@@ -113,7 +116,7 @@ A standard rocket jumping script found everywhere online.
 
 Like the [Spy](#spy), I declare a custom `bindM4-default` to use the Rocket Jump script, and re-declare `+setBinds` and `-setBinds`, and bind them to SHIFT.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
 
 ## Pyro
 
@@ -121,16 +124,20 @@ Like the [Spy](#spy), I declare a custom `bindM4-default` to use the Rocket Jump
 
 I see people using a "Detonator Jump" script for use with the Pyro's [Detonator](https://wiki.teamfortress.com/wiki/Detonator). I'll probably set that up eventually.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
 
 ## Contributing
 
 You can always fork and edit. If you notice better ways that I could be doing things, please open a PR.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+## Set up your own cfg repo
+
+My `.gitignore` file lists all the default files. Copy it into your `cfg/` directory. You can turn the directory into a git repo (run `git init`) and it will ignore the default files, and only add the custom files you set up.
+
+[🔝 Back to top](#table-of-contents)
 
 ## Thanks
 
 Thanks to the community. This scripting takes getting used to, and I'm still figuring out the nuances. I couldn't have gotten into it if y'all weren't posting your scripts.
 
-[🔝 Back to top](#team-fortress-2-scripts)
+[🔝 Back to top](#table-of-contents)
