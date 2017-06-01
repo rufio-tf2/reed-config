@@ -42,35 +42,6 @@ Restart TF2, and the `autoexec.cfg` will automatically run.
 
 Create global `null` variable, set to an empty string
 
-### Utility
-
-#### Added missing alerts
-
-I added calls which alert your team of two vulnerabilities for which there are no built-in alerts (like there is for "Spy!").
-
-##### Alert Sniper
-
-[`alertSniper`](./autoexec.cfg#L9) - calls the "Incoming!" alert, and prints a message to your team saying that there's a sniper ahead.
-
-
-##### Alert Spy-On-Engi
-
-[`alertSpyOnEngi`](./autoexec.cfg#L9) - calls the "Incoming!" alert, and prints a message informing your team that a spy is actively sapping the engineer's buildings.
-
-If a spy catches an engineer alone, it can be difficult for him to deal with him by himself while preserving all of his buildings. Often he has to choose between running the spy off, or removing his sappers.
-
-Arguably this should call the "Help!" alert (`voicemenu 2 0`), but it's less common. I think I trust my teammates to react quicker to "Incoming!".
-
-#### Shift Modifier
-
-After feedback on my [Reddit post](https://www.reddit.com/r/Tf2Scripts/comments/6eaer7/cfg_scripts_in_github_repo/), this now works differently.
-
-The MOUSE buttons that I use with the shift-modifier are bound to variables `M1_key`, `M2_key`, and `M4_key`. The SHIFT button executes the `+shift_modifier` variable, which mutates the defition of the above variables.
-
-When SHIFT is pressed, the `*_key` variables are assigned to the alerts. When SHIFT is released (`-shift_modifier`), they're assigned to my default buttons.
-
-This is messy, but apparently nested binds can cause issues with other scripts, so it's the safer approach.
-
 [🔝 Back to top](#table-of-contents)
 
 ### Silly
@@ -81,11 +52,31 @@ Pressing HOME makes the SPACE button execute a jump and call for a dispenser. Pr
 
 ## reset.cfg
 
-This is called at the start of each class-specific cfg file to reset the keys I play with to their default behavior.
+### Utility
 
-A lot of this is unnecessary and redundant. I'll probably pare this down in future commits. (For example, I never rebind, and never will rebind the 1, 2, or 3 buttons.)
+#### Added missing alerts
 
-The relevant resets, which I do fiddle with for specific classes, are the MOUSE buttons and the SPACE button.
+I added calls which alert your team of two vulnerabilities for which there are no built-in alerts (like there is for "Spy!").
+
+##### Alert Sniper
+
+[`alertSniper`](./autoexec.cfg#L9) - calls the "Incoming!" alert, and prints a message to your team saying that there's a sniper ahead.
+
+##### Alert Spy-On-Engi
+
+[`alertSpyOnEngi`](./autoexec.cfg#L9) - calls the "Incoming!" alert, and prints a message informing your team that a spy is actively sapping the engineer's buildings.
+
+If a spy catches an engineer alone, it can be difficult for him to deal with him by himself while preserving all of his buildings. Often he has to choose between running the spy off, or removing his sappers.
+
+#### Shift Modifier
+
+After feedback on my [Reddit post](https://www.reddit.com/r/Tf2Scripts/comments/6eaer7/cfg_scripts_in_github_repo/), this now works differently.
+
+The MOUSE buttons that I use with the shift-modifier are bound to variables `M1_key`, `M2_key`, and `M4_key`. The SHIFT button executes the `+shift_modifier` variable, which mutates the defition of the above variables.
+
+When SHIFT is pressed, the `*_key` variables are assigned to the alerts. When SHIFT is released (`-shift_modifier`), they're assigned to my default buttons.
+
+This is messy, but apparently nested binds can cause issues with other scripts, so it's the safer approach.
 
 [🔝 Back to top](#table-of-contents)
 
