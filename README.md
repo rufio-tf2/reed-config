@@ -63,12 +63,13 @@ Arguably this should call the "Help!" alert (`voicemenu 2 0`), but it's less com
 
 #### Shift Modifier
 
-Gets the base variables from [`get_shift_alert_base_variables.cfg`](./get_shift_alert_base_variables.cfg)
+After feedback on my [Reddit post](https://www.reddit.com/r/Tf2Scripts/comments/6eaer7/cfg_scripts_in_github_repo/), this now works differently.
 
-The variable [`+setBinds`](./autoexec.cfg#19) binds to my mouse buttons: the native "Spy!" alert (MOUSE1), `alertSniper` (MOUSE2), and `alertSpyOnEngi` (MOUSE4).
-The variable [`-setBinds`](./autoexec.cfg#20) resets those MOUSE buttons to their default functions.
+The MOUSE buttons that I use with the shift-modifier are bound to variables `M1_key`, `M2_key`, and `M4_key`. The SHIFT button executes the `+shift_modifier` variable, which mutates the defition of the above variables.
 
-Finally, `+setBinds` is bound to the SHIFT button. Pressing shift calls `+setBinds`, releasing shift calls `-setBinds`, a hacky way to use SHIFT as a modifier key.
+When SHIFT is pressed, the `*_key` variables are assigned to the alerts. When SHIFT is released (`-shift_modifier`), they're assigned to my default buttons.
+
+This is messy, but apparently nested binds can cause issues with other scripts, so it's the safer approach.
 
 [🔝 Back to top](#table-of-contents)
 
@@ -88,16 +89,6 @@ The relevant resets, which I do fiddle with for specific classes, are the MOUSE 
 
 [🔝 Back to top](#table-of-contents)
 
-## Spy
-
-### Custom Shift Modifier
-
-Gets the base variables from [`get_shift_alert_base_variables.cfg`](./get_shift_alert_base_variables.cfg), re-writes `bindM4-default` to `bind MOUSE4 lastdisguise`, re-declare `+setBinds` and `-setBinds` (using the new `bindM4-default`), and re-binds these to the SHIFT button.
-
-**Note:** There's probably a better way to structure these files. Modularizing code in these scripts is inherently really messy. I'm open to ideas and suggestions.
-
-[🔝 Back to top](#table-of-contents)
-
 ## Soldier
 
 ### Rocket Jump
@@ -106,7 +97,7 @@ A standard rocket jumping script found everywhere online.
 
 ### Custom Shift Modifier
 
-Like the [Spy](#spy), I declare a custom `bindM4-default` to use the Rocket Jump script, and re-declare `+setBinds` and `-setBinds`, and bind them to SHIFT.
+Identical to the shift-modifier in [reset](#resetcfg), but `M4_key` now has `+/-` states, bound to the `rocket_jump` script.
 
 [🔝 Back to top](#table-of-contents)
 
