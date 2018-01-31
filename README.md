@@ -32,3 +32,7 @@ In the future, I'll add more detailed instructions for those new to GitHub.
 ## Thanks
 
 Thanks to the community. This scripting takes getting used to, and I'm still figuring out the nuances. I couldn't have gotten into it if y'all weren't posting your scripts.
+
+## License
+
+MIT
