@@ -35,4 +35,4 @@ Thanks to the community. This scripting takes getting used to, and I'm still fig
 
 ## License
 
-MIT
+[MIT](./LICENSE.txt)
