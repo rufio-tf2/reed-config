@@ -98,7 +98,7 @@ I define any class-specific actions in that class's `key_modifiers.cfg` file.
 
 ### Class-specific, weapon-specific settings
 
-This is architected to allow you to perform an action when a given class selects a specific weapon. I set this up because I wanted to have my viewmodel drawn for certain weapons but not for others. With the Engineer for example, I want the viewmodel when I use the Wrench, but I want to turn it off for the Shotgun (slot 1) and Pistol (slot 2).
+This is architected to allow you to perform an action when a given class selects a specific weapon. I set this up because I wanted to have my viewmodel drawn for certain weapons but not for others. With the Engineer for example, I want the viewmodel when I use the Wrench (slot 3) and the Pistol (slot 2), but I want to turn it off when I use the Shotgun (slot 1).
 
 <details>
   <summary>Engineer</summary>
