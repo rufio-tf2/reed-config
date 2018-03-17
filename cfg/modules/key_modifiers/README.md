@@ -199,6 +199,6 @@ The Spy's [`key_modifier.cfg`](../../classes/spy/key_modifiers.cfg) is the same,
 
 ## Create a new modifier key
 
-Do you want to make ALT a modifier too? I put that in place a bit ago, but I ended up not liking it so I removed it. If you want ALT or some other key, [create an issue](https://github.com/reeddunkle/reed-config/issues) and I'll help you out.
+Do you want to make ALT a modifier too? I put that in place a bit ago, but I ended up not liking it so I removed it. If you want ALT or some other key, [create an issue](https://github.com/reed-tf2/reed-config/issues) and I'll help you out.
 
 I'm still actively working on and refactoring this system. If you have ideas on how to improve it please open an issue for that too.
