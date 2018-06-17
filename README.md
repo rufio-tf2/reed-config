@@ -270,7 +270,7 @@ You can also:
 
 I recommend [making a backup](./BACKUP.md) of your current `cfg` folder in case you want to revert to your current setup. Also, remove any other configs you've got in place. You can even back up your whole `tf` folder if you want, it isn't that large.
 
-### 2. Drop in my files
+### 2. Move config files
 
 To install my files, open the `custom` folder that's inside of the `tf` folder. If `custom` doesn't exist, just create it.
 
