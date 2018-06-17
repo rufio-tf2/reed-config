@@ -2,37 +2,37 @@
 
 ## Table of Contents
 
-* [What you get](#what-you-get)
-  * [Additional actions](./cfg/actions.cfg)
-  * [Improved settings](./cfg/settings.cfg)
-  * [Shift-modifiers](#shift-modifiers)
-  * [Weapon-specific settings](#weapon-specific-settings)
-  * [Quick loadout switch](#quick-loadout-switch)
-  * [Quick class switch](#quick-class-switch)
-* [Download](#download)
-* [Install](#install)
-* [Uninstall](#uninstall)
-* [Contributing](#contributing)
+- [What you get](#what-you-get)
+  - [Additional actions](https://github.com/reed-tf2/reed-config/blob/master/cfg/actions.cfg)
+  - [Improved settings](https://github.com/reed-tf2/reed-config/blob/master/cfg/settings.cfg)
+  - [Shift-modifiers](#shift-modifiers-arrow_upper_right)
+  - [Weapon-specific settings](#weapon-specific-settings-arrow_upper_right)
+  - [Quick loadout switch](#quick-loadout-switch-arrow_upper_right)
+  - [Quick class switch](#quick-class-switch-arrow_upper_right)
+- [Download](#download-arrow_double_down)
+- [Install](#install)
+- [Uninstall](#uninstall)
+- [Contributing](#contributing)
 
 ## What you get
 
 This is not an [FPS config](https://github.com/mastercoms/mastercomfig). This config is a framework that provides missing features to TF2:
 
-* [Additional actions](./cfg/actions.cfg) (e.g. `alertSniper`, `alertSpyOnEngi`)
-* [Improved settings](./cfg/settings.cfg) (e.g. interp, fov, and crosshair)
-* [Modules](./cfg/modules/README.md): _Shift-modifiers, Weapon settings, Quick loadout switch, Quick class switch_
+- [Additional actions](https://github.com/reed-tf2/reed-config/blob/master/cfg/actions.cfg) (e.g. `alertSniper`, `alertSpyOnEngi`)
+- [Improved settings](https://github.com/reed-tf2/reed-config/blob/master/cfg/settings.cfg) (e.g. interp, fov, and crosshair)
+- [Modules](./cfg/modules/README.md): _Shift-modifiers, Weapon settings, Quick loadout switch, Quick class switch_
 
 You should be able to swap in and out different parts of this config and customize the specifics.
 
-### Shift-modifiers
+### Shift-modifiers ([:arrow_upper_right:](https://github.com/reed-tf2/key-modifiers))
 
-These are some of shift actions that I use. For a more full explanation of how to work with these, read [this](./cfg/modules/key_modifiers/).
+These are some of shift actions that I use. For a more full explanation of how to work with these, read [this](https://github.com/reed-tf2/key-modifiers).
 
-* <kbd>SHIFT</kbd>+<kbd>MOUSE1</kbd> -- _Alert Spy_
-* <kbd>SHIFT</kbd>+<kbd>MOUSE2</kbd> -- _Alert Sniper ahead_
-* <kbd>SHIFT</kbd>+<kbd>MOUSE3</kbd> -- _Alert Spy is sapping engineer's buildings_
-* <kbd>SHIFT</kbd>+<kbd>MWHEELUP</kbd> -- _Alert Incoming_
-* <kbd>SHIFT</kbd>+<kbd>MWHEELDOWN</kbd> -- _Alert Incoming from behind_
+- <kbd>SHIFT</kbd>+<kbd>MOUSE1</kbd> -- _Alert Spy_
+- <kbd>SHIFT</kbd>+<kbd>MOUSE2</kbd> -- _Alert Sniper ahead_
+- <kbd>SHIFT</kbd>+<kbd>MOUSE3</kbd> -- _Alert Spy is sapping engineer's buildings_
+- <kbd>SHIFT</kbd>+<kbd>MWHEELUP</kbd> -- _Alert Incoming_
+- <kbd>SHIFT</kbd>+<kbd>MWHEELDOWN</kbd> -- _Alert Incoming from behind_
 
 #### Class-specific shift-modifiers
 
@@ -49,7 +49,7 @@ Here are my class-specific overrides:
       <kbd>MOUSE3</kbd> -- <em>Destroy sentry and build</em>
     </li>
     <li>
-      <a href="./cfg/classes/engineer/key_modifiers.cfg">
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/engineer/key_modifiers.cfg">
         <code>key_modifiers.cfg</code>
       </a>
     </li>
@@ -63,12 +63,12 @@ Here are my class-specific overrides:
       <kbd>MOUSE4</kbd> -- <em>Detonator jump</em>
     </li>
     <li>
-      <a href="./cfg/classes/pyro/key_modifiers.cfg">
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/pyro/key_modifiers.cfg">
         <code>key_modifiers.cfg</code>
       </a>
     </li>
   </ul>
- 
+
 </details>
 
 <details>
@@ -81,7 +81,7 @@ Here are my class-specific overrides:
       I don't use this anymore, so I've commented this out (by adding two slashes). If you want to use it, remove the `//` from Line 4 and Line 7.
     </li>
     <li>
-      <a href="./cfg/classes/soldier/key_modifiers.cfg">
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/soldier/key_modifiers.cfg">
         <code>key_modifiers.cfg</code>
       </a>
     </li>
@@ -95,14 +95,14 @@ Here are my class-specific overrides:
       <kbd>MOUSE4</kbd> -- <em>Last diguise</em>
     </li>
     <li>
-      <a href="./cfg/classes/spy/key_modifiers.cfg">
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/spy/key_modifiers.cfg">
         <code>key_modifiers.cfg</code>
       </a>
     </li>
   </ul>
 </details>
 
-### Weapon-specific settings ([:arrow_upper_right:](./cfg/modules/weapon_settings.cfg))
+### Weapon-specific settings ([:arrow_upper_right:](https://github.com/reed-tf2/reed-config/blob/master/cfg/modules/weapon_settings.cfg))
 
 This lets you load settings per weapon slot. For example, you could change the crosshair color for different weapons like [Mr. Slin does](https://github.com/misterslin/CrosshairSwitcher).
 
@@ -115,7 +115,7 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Engineer</summary>
   <li>
-    <a href="./cfg/classes/engineer/weapon_settings.cfg">
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/engineer/weapon_settings.cfg">
       <code>weapon_settings.cfg</code>
     </a>
   </li>
@@ -142,7 +142,7 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Scout</summary>
   <li>
-    <a href="./cfg/classes/scout/weapon_settings.cfg">
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/scout/weapon_settings.cfg">
       <code>weapon_settings.cfg</code>
     </a>
   </li>
@@ -165,7 +165,7 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Soldier</summary>
   <li>
-    <a href="./cfg/classes/soldier/weapon_settings.cfg">
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/soldier/weapon_settings.cfg">
       <code>weapon_settings.cfg</code>
     </a>
   </li>
@@ -188,7 +188,7 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Spy</summary>
   <li>
-    <a href="./cfg/classes/spy/weapon_settings.cfg">
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/spy/weapon_settings.cfg">
       <code>weapon_settings.cfg</code>
     </a>
   </li>
@@ -210,7 +210,7 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
   </table>
 </details>
 
-### Quick loadout switch ([:arrow_upper_right:](./cfg/modules/loadout_switch.cfg))
+### Quick loadout switch ([:arrow_upper_right:](https://github.com/reed-tf2/quick-loadout-switch))
 
 <details>
   <summary>Use the arrow keys to change your loadout.</summary>
@@ -224,7 +224,7 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 
 I also have <kbd>ALT</kbd> bound to switch to Loadout A for quick resupply.
 
-### Quick class switch ([:arrow_upper_right:](./cfg/modules/class_switch.cfg))
+### Quick class switch ([:arrow_upper_right:](https://github.com/reed-tf2/quick-class-switch))
 
 <details>
   <summary>Use the numpad numbers to change your class.</summary>
@@ -241,22 +241,22 @@ I also have <kbd>ALT</kbd> bound to switch to Loadout A for quick resupply.
   </ol>
 </details>
 
-## Download [[:arrow_double_down:](https://github.com/reeddunkle/reed-config/archive/master.zip)]
+## Download [[:arrow_double_down:](https://github.com/reed-tf2/skeleton-config/archive/master.zip)]
 
 If the link doesn't work, click the green "Clone or download" button on the top right of this page and click "Download ZIP".
 
 <img src="https://i.imgur.com/OX9A0dt.png" width="50%" height="50%" alt="Download ZIP">
 
 1.  Unzip my config to its own folder.
-1.  Rename the config folder from `reed-config-master` to just `reed-config`. (`master` is the [branch](https://guides.github.com/introduction/flow/))
+1.  Rename the config folder from `skeleton-config-master` to `skeleton-config`. (`master` is the [branch](https://guides.github.com/introduction/flow/))
 
 ## Install
 
 Navigate to your `tf` folder. If you've chosen a custom location for your Steam folder, then you know where it is. If you used the default install path, then it should be:
 
-* Windows: `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\`
-* macOS: `~/Library/Application Support/Steam/SteamApps/common/team fortress 2/tf/`
-* Linux: `~/.steam/steam/SteamApps/common/Team Fortress 2/tf/`
+- Windows: `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\`
+- macOS: `~/Library/Application Support/Steam/SteamApps/common/team fortress 2/tf/`
+- Linux: `~/.steam/steam/SteamApps/common/Team Fortress 2/tf/`
 
 You can also:
 
@@ -266,20 +266,20 @@ You can also:
 1.  Click the "Browse Local Files..." button
 1.  Open the `tf` folder
 
-### 1. Back up your `cfg`
+### 1. Back up your current settings
 
-I recommend [making a backup](./BACKUP.md) of your current `cfg` folder in case you want to revert to your current setup. Also, remove any other configs you've got in place. You can even back up your whole `tf` folder if you want, it isn't that large.
+I recommend [making a backup](./BACKUP.md) of your current settings in case you want to revert to your current setup. Also, remove any other configs you've got in place. You can even back up your whole `tf` folder if you want, it isn't that large.
 
 ### 2. Move config files
 
 To install my files, open the `custom` folder that's inside of the `tf` folder. If `custom` doesn't exist, just create it.
 
 1.  Navigate into `tf/custom/`
-1.  Drop my config into here
+1.  Move `skeleton-config` into here
 
-You should now have my config located at `tf/custom/reed-config`. Restart TF2 and everything should be setup.
+You should now have my config located at `tf/custom/skeleton-config`. Restart TF2 and everything should be setup.
 
-**Note**: If anything is wonky after you install my config, please [create an issue](https://github.com/reed-tf2/reed-config/issues).
+**Note**: If anything is wonky after you install my config, please [create an issue](https://github.com/reed-tf2/skeleton-config/issues).
 
 ## Uninstall
 
