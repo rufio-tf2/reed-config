@@ -1,10 +1,12 @@
-## Back up your `cfg` folder
+## Back up your current settings
 
-Create a backup of the `cfg` folder that's inside of this `tf` folder. To do this, copy and paste the folder, and give it a different name, e.g. "cfg BACKUP". You can call it whatever you want.
+In the TF2 console, enter:
 
-The point is to have a version of your current config to revert to if you ever want to go back. This `cfg` folder is pretty small so it won't hurt anything to have an extra copy sitting around.
+```
+host_writeconfig config_backup full
+```
 
-I recommend zipping it and e-mailing it to yourself (or uploading it somewhere) so that you always have a version to refer to.
+Then navigate to TF2's `tf/cfg/` folder, and locate the newly created `config_back.cfg` file. Email the file to yourself, stick it on a thumb drive, etc. The file isn't very big.
 
 ## Remove/disable other custom configs
 
