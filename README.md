@@ -279,7 +279,7 @@ To install my files, open the `custom` folder that's inside of the `tf` folder. 
 
 You should now have my config located at `tf/custom/skeleton-config`. Restart TF2 and everything should be setup.
 
-**Note**: If anything is wonky after you install my config, please [create an issue](https://github.com/reed-tf2/skeleton-config/issues).
+**Note**: If anything is wonky after you install my config, please [let me know](https://github.com/reed-tf2/skeleton-config/issues/new).
 
 ## Uninstall
 

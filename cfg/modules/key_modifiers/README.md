@@ -2,24 +2,24 @@
 
 There's a couple of things that need to be done for each key in order to wire it up so that it can be modified. Currently, these are the keys that are wired up:
 
-* <kbd>MOUSE1</kbd>
-* <kbd>MOUSE2</kbd>
-* <kbd>MOUSE3</kbd>
-* <kbd>MOUSE4</kbd>
-* <kbd>ALT</kbd>
-* <kbd>MWHEELUP</kbd>
-* <kbd>MWHEELDOWN</kbd>
-* <kbd>LEFTARROW</kbd>
-* <kbd>UPARROW</kbd>
-* <kbd>RIGHTARROW</kbd>
-* <kbd>DOWNARROW</kbd>
+- <kbd>MOUSE1</kbd>
+- <kbd>MOUSE2</kbd>
+- <kbd>MOUSE3</kbd>
+- <kbd>MOUSE4</kbd>
+- <kbd>ALT</kbd>
+- <kbd>MWHEELUP</kbd>
+- <kbd>MWHEELDOWN</kbd>
+- <kbd>LEFTARROW</kbd>
+- <kbd>UPARROW</kbd>
+- <kbd>RIGHTARROW</kbd>
+- <kbd>DOWNARROW</kbd>
 
 You can change these existing keys or add new keys.
 
-* [Removing a key](#removing-a-key)
-* [Changing a key](#changing-a-key)
-* [Adding a new key](#adding-a-new-key)
-* [Creating class-specific states](#create-class-specific-states)
+- [Removing a key](#removing-a-key)
+- [Changing a key](#changing-a-key)
+- [Adding a new key](#adding-a-new-key)
+- [Creating class-specific states](#create-class-specific-states)
 
 **Note**: This module depends on actions created in [`actions.cfg`](../../actions.cfg).
 
@@ -129,9 +129,9 @@ alias alertUberReady "voicemenu 1 7;"
 
 In the [`keys`](./keys) folder, create a new file called `F1.cfg`. It's going to need three things:
 
-* Reset function to return it to its unmodified state
-* Shift-modify function to set it to its modified state
-* Wired up
+- Reset function to return it to its unmodified state
+- Shift-modify function to set it to its modified state
+- Wired up
 
 ```
 //  F1.cfg
@@ -199,6 +199,6 @@ The Spy's [`key_modifier.cfg`](../../classes/spy/key_modifiers.cfg) is the same,
 
 ## Create a new modifier key
 
-Do you want to make ALT a modifier too? I put that in place a bit ago, but I ended up not liking it so I removed it. If you want ALT or some other key, [create an issue](https://github.com/reed-tf2/reed-config/issues) and I'll help you out.
+Do you want to make ALT a modifier too? I put that in place a bit ago, but I ended up not liking it so I removed it. If you want ALT or some other key, [let me know](https://github.com/reed-tf2/reed-config/issues/new) and I'll help you out.
 
-I'm still actively working on and refactoring this system. If you have ideas on how to improve it please open an issue for that too.
+I'm still working on improving this system. If you have ideas or suggestions, on how to improve it [let me know](https://github.com/reed-tf2/reed-config/issues/new).
