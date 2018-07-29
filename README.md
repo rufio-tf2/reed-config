@@ -102,7 +102,7 @@ Here are my class-specific overrides:
   </ul>
 </details>
 
-### Weapon-specific settings ([:arrow_upper_right:](https://github.com/reed-tf2/reed-config/blob/master/cfg/modules/weapon_settings.cfg))
+### Weapon-specific settings ([:arrow_upper_right:](https://github.com/reed-tf2/reed-config/blob/master/cfg/modules/weapon_slot_settings.cfg))
 
 This lets you load settings per weapon slot. For example, you could change the crosshair color for different weapons like [Mr. Slin does](https://github.com/misterslin/CrosshairSwitcher).
 
@@ -115,8 +115,8 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Engineer</summary>
   <li>
-    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/engineer/weapon_settings.cfg">
-      <code>weapon_settings.cfg</code>
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/engineer/weapon_slot_settings.cfg">
+      <code>weapon_slot_settings.cfg</code>
     </a>
   </li>
   <table>
@@ -142,8 +142,8 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Scout</summary>
   <li>
-    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/scout/weapon_settings.cfg">
-      <code>weapon_settings.cfg</code>
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/scout/weapon_slot_settings.cfg">
+      <code>weapon_slot_settings.cfg</code>
     </a>
   </li>
   <table>
@@ -165,8 +165,8 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Soldier</summary>
   <li>
-    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/soldier/weapon_settings.cfg">
-      <code>weapon_settings.cfg</code>
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/soldier/weapon_slot_settings.cfg">
+      <code>weapon_slot_settings.cfg</code>
     </a>
   </li>
   <table>
@@ -188,8 +188,8 @@ By default I turn the viewmodel on for all of the slots, but I change that with 
 <details>
   <summary>Spy</summary>
   <li>
-    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/spy/weapon_settings.cfg">
-      <code>weapon_settings.cfg</code>
+    <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/spy/weapon_slot_settings.cfg">
+      <code>weapon_slot_settings.cfg</code>
     </a>
   </li>
   <table>

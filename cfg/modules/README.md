@@ -4,11 +4,11 @@ The goal is to let you add and remove the modules you want.
 
 Currently installed modules:
 
-* [Key modifiers](./key_modifiers/)
-* [Weapon settings](./weapon_settings.cfg)
-* [Quick loadout switch](./loadout_switch.cfg)
-* [Quick class switch](./class_switch.cfg)
-* [Silly](./silly.cfg)
+- [Key modifiers](./key_modifiers/)
+- [Weapon settings](./weapon_slot_settings.cfg)
+- [Quick loadout switch](./loadout_switch.cfg)
+- [Quick class switch](./class_switch.cfg)
+- [Silly](./silly.cfg)
 
 ## Working with modules
 
