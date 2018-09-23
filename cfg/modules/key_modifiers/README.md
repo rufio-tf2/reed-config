@@ -2,17 +2,19 @@
 
 There's a couple of things that need to be done for each key in order to wire it up so that it can be modified. Currently, these are the keys that are wired up:
 
+- <kbd>ALT</kbd>
+- <kbd>DOWNARROW</kbd>
+- <kbd>LEFTARROW</kbd>
+- <kbd>UPARROW</kbd>
+- <kbd>RIGHTARROW</kbd>
+- <kbd>KP_PLUS</kbd>
 - <kbd>MOUSE1</kbd>
 - <kbd>MOUSE2</kbd>
 - <kbd>MOUSE3</kbd>
 - <kbd>MOUSE4</kbd>
-- <kbd>ALT</kbd>
-- <kbd>MWHEELUP</kbd>
+- <kbd>MOUSE5</kbd>
 - <kbd>MWHEELDOWN</kbd>
-- <kbd>LEFTARROW</kbd>
-- <kbd>UPARROW</kbd>
-- <kbd>RIGHTARROW</kbd>
-- <kbd>DOWNARROW</kbd>
+- <kbd>MWHEELUP</kbd>
 
 You can change these existing keys or add new keys.
 

@@ -26,7 +26,7 @@ You should be able to swap in and out different parts of this config and customi
 
 ### Shift-modifiers ([:arrow_upper_right:](https://github.com/reed-tf2/key-modifiers))
 
-These are some of shift actions that I use. For a more full explanation of how to work with these, read [this](https://github.com/reed-tf2/key-modifiers).
+These are some of shift actions that I use. For a more full explanation of how to work with these, [read this](https://github.com/reed-tf2/key-modifiers).
 
 - <kbd>SHIFT</kbd>+<kbd>MOUSE1</kbd> -- _Alert Spy_
 - <kbd>SHIFT</kbd>+<kbd>MOUSE2</kbd> -- _Alert Sniper ahead_
@@ -36,11 +36,9 @@ These are some of shift actions that I use. For a more full explanation of how t
 
 #### Class-specific shift-modifiers
 
-You can define class-specific versions of these modifiers for your customization pleasure :beers:
+You can define all-class, and/or class-specific "shift-modified" versions of any key. But each key needs to be wired-up by doing a few things. I've got a handful of keys already wired-up that I use (the keys listed above, plus a [few more](./cfg/modules/key_modifiers/keys)).
 
-For example, on Spy I have <kbd>MOUSE4</kbd> execute the `lastdisguise` command, but on Pyro <kbd>MOUSE4</kbd> does a `detonatorJump`. You can create shift-modified versions of these. I define these class-specific overrides in that class's `key_modifiers.cfg` file.
-
-Here are my class-specific overrides:
+For example, these are different bindings that I tested my system against:
 
 <details>
   <summary>Engineer</summary>
@@ -49,8 +47,8 @@ Here are my class-specific overrides:
       <kbd>MOUSE3</kbd> -- <em>Destroy sentry and build</em>
     </li>
     <li>
-      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/engineer/key_modifiers.cfg">
-        <code>key_modifiers.cfg</code>
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/engineer/key_modifiers">
+        <code>classes/engineer/key_modifiers</code>
       </a>
     </li>
   </ul>
@@ -63,8 +61,8 @@ Here are my class-specific overrides:
       <kbd>MOUSE4</kbd> -- <em>Detonator jump</em>
     </li>
     <li>
-      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/pyro/key_modifiers.cfg">
-        <code>key_modifiers.cfg</code>
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/pyro/key_modifiers/">
+        <code>classes/pyro/key_modifiers</code>
       </a>
     </li>
   </ul>
@@ -75,14 +73,11 @@ Here are my class-specific overrides:
   <summary>Soldier</summary>
   <ul>
     <li>
-      <kbd>MOUSE4</kbd> -- <em>Rocket jump</em>
+      <kbd>MOUSE4</kbd>, <kbd>MWHEELUP</kbd>, <kbd>MWHEELDOWN</kbd> -- <em>Primary <--> Melee switchers</em>
     </li>
     <li>
-      I don't use this anymore, so I've commented this out (by adding two slashes). If you want to use it, remove the `//` from Line 4 and Line 7.
-    </li>
-    <li>
-      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/soldier/key_modifiers.cfg">
-        <code>key_modifiers.cfg</code>
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/soldier/key_modifiers/">
+        <code>classes/soldier/key_modifiers</code>
       </a>
     </li>
   </ul>
@@ -92,11 +87,11 @@ Here are my class-specific overrides:
   <summary>Spy</summary>
   <ul>
     <li>
-      <kbd>MOUSE4</kbd> -- <em>Last diguise</em>
+      <kbd>MOUSE4</kbd> -- <em>Last disguise</em>
     </li>
     <li>
-      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/spy/key_modifiers.cfg">
-        <code>key_modifiers.cfg</code>
+      <a href="https://github.com/reed-tf2/reed-config/blob/master/cfg/classes/spy/key_modifiers/">
+        <code>classes/spy/key_modifiers</code>
       </a>
     </li>
   </ul>
@@ -113,98 +108,6 @@ This lets you load settings per weapon slot. For example, you could:
 #### Class-specific weapon-slot settings
 
 In the previous example, I established base slot-settings for all of the classes. But you can also create class-specific slot overrides. I put those settings in a class's `key_modifiers.cfg` file.
-
-For example, I've previously used these viewmodel slot settings for different classes:
-
-<details>
-  <summary>Engineer</summary>
-  <li>
-    <code>tf/custom/reed-config/cfg/classes/engineer/weapon_slot_settings.cfg</code>
-  </li>
-  <table>
-    <tr>
-      <th></th>
-      <th>Slot 1</th>
-      <th>Slot 2</th>
-      <th>Slot 3</th>
-      <th>Slot 4</th>
-      <th>Slot 5</th>
-    </tr>
-    <tr>
-      <td>View model?</td>
-      <td>No</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>Scout</summary>
-  <li>
-    <code>tf/custom/reed-config/cfg/classes/scout/weapon_slot_settings.cfg</code>
-  </li>
-  <table>
-    <tr>
-      <th></th>
-      <th>Slot 1</th>
-      <th>Slot 2</th>
-      <th>Slot 3</th>
-    </tr>
-    <tr>
-      <td>View model?</td>
-      <td>No</td>
-      <td>No</td>
-      <td>Yes</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>Soldier</summary>
-  <li>
-    <code>tf/custom/reed-config/cfg/classes/soldier/weapon_slot_settings.cfg</code>
-  </li>
-  <table>
-    <tr>
-      <th></th>
-      <th>Slot 1</th>
-      <th>Slot 2</th>
-      <th>Slot 3</th>
-    </tr>
-    <tr>
-      <td>View model?</td>
-      <td>No</td>
-      <td>No</td>
-      <td>Yes</td>
-    </tr>
-  </table>
-</details>
-
-<details>
-  <summary>Spy</summary>
-  <li>
-    <code>tf/custom/reed-config/cfg/classes/spy/weapon_slot_settings.cfg</code>
-  </li>
-  <table>
-    <tr>
-      <th></th>
-      <th>Slot 1</th>
-      <th>Slot 2</th>
-      <th>Slot 3</th>
-      <th>Slot 4</th>
-    </tr>
-    <tr>
-      <td>View model?</td>
-      <td>No</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>Yes</td>
-    </tr>
-  </table>
-</details>
 
 ### Quick loadout switch ([:arrow_upper_right:](https://github.com/reed-tf2/quick-loadout-switch))
 
@@ -254,7 +157,7 @@ Navigate to your `tf` folder. If you've chosen a custom location for your Steam 
 - macOS: `~/Library/Application Support/Steam/SteamApps/common/team fortress 2/tf/`
 - Linux: `~/.steam/steam/SteamApps/common/Team Fortress 2/tf/`
 
-You can also:
+#### You can also:
 
 1.  Right click TF2 in your Steam library
 1.  Click Properties
@@ -265,6 +168,10 @@ You can also:
 ### 1. Back up your current settings
 
 I recommend [making a backup](./BACKUP.md) of your current settings in case you want to revert to your current setup. Also, remove any other configs you've got in place. You can even back up your whole `tf` folder if you want, it isn't that large.
+
+I made a video showing you how to create a backup using the console:
+
+- <https://youtu.be/XpQyBVroUrE>
 
 ### 2. Move config files
 

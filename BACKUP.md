@@ -8,6 +8,10 @@ host_writeconfig config_backup full
 
 Then navigate to TF2's `tf/cfg/` folder, and locate the newly created `config_back.cfg` file. Email the file to yourself, stick it on a thumb drive, etc. The file isn't very big.
 
+I made a video showing how to create the backup file:
+
+- <https://youtu.be/XpQyBVroUrE>
+
 ## Remove/disable other custom configs
 
 Before you install my config, you need to remove any configs that you've previously made or installed. If you already have a custom config inside your `tf/custom` folder, remove it while you're trying mine out.
