@@ -151,13 +151,15 @@ If the link doesn't work, click the green "Clone or download" button on the top 
 
 ## Install
 
+#### Either, open your C:\Program Files (x86) and:
+
 Navigate to your `tf` folder. If you've chosen a custom location for your Steam folder, then you know where it is. If you used the default install path, then it should be:
 
 - Windows: `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\`
 - macOS: `~/Library/Application Support/Steam/SteamApps/common/team fortress 2/tf/`
 - Linux: `~/.steam/steam/SteamApps/common/Team Fortress 2/tf/`
 
-#### You can also:
+#### Or, open Steam and:
 
 1.  Right click TF2 in your Steam library
 1.  Click Properties
@@ -167,7 +169,7 @@ Navigate to your `tf` folder. If you've chosen a custom location for your Steam 
 
 ### 1. Back up your current settings
 
-I recommend [making a backup](./BACKUP.md) of your current settings in case you want to revert to your current setup. Also, remove any other configs you've got in place. You can even back up your whole `tf` folder if you want, it isn't that large.
+I recommend [making a backup](./docs/BACKUP.md) of your current settings in case you want to revert to your current setup. Also, remove any other configs you've got in place. You can even back up your whole `tf` folder if you want, it isn't that large.
 
 I made a video showing you how to create a backup using the console:
 
@@ -186,7 +188,7 @@ You should now have my config located at `tf/custom/skeleton-config`. Restart TF
 
 ## Uninstall
 
-Did you try out my config but want to revert to your backup? Read [this](./UNINSTALL.md).
+Did you try out my config but want to revert to your backup? Read [this](./docs/UNINSTALL.md).
 
 ## Contributing
 
