@@ -12,7 +12,6 @@ There's a couple of things that need to be done for each key in order to wire it
 - <kbd>MOUSE2</kbd>
 - <kbd>MOUSE3</kbd>
 - <kbd>MOUSE4</kbd>
-- <kbd>MOUSE5</kbd>
 - <kbd>MWHEELDOWN</kbd>
 - <kbd>MWHEELUP</kbd>
 
