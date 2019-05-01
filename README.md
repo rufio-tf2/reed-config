@@ -20,7 +20,7 @@ This is not an [FPS config](https://github.com/mastercoms/mastercomfig). This co
 
 - [Additional actions](https://github.com/rufio-tf2/rufio-config/blob/master/cfg/actions.cfg) (e.g. `alertSniper`, `alertSpyOnEngi`)
 - [Improved settings](https://github.com/rufio-tf2/rufio-config/blob/master/cfg/settings.cfg) (e.g. interp, fov, and crosshair)
-- [Modules](./cfg/modules/README.md): _Shift-modifiers, Weapon settings, Quick loadout switch, Quick class switch_
+- [Modules](./cfg/scripts/README.md): _Shift-modifiers, Weapon settings, Quick loadout switch, Quick class switch_
 
 You should be able to swap in and out different parts of this config and customize the specifics.
 
@@ -36,7 +36,7 @@ These are some of shift actions that I use. For a more full explanation of how t
 
 #### Class-specific shift-modifiers
 
-You can define all-class, and/or class-specific "shift-modified" versions of any key. But each key needs to be wired-up by doing a few things. I've got a handful of keys already wired-up that I use (the keys listed above, plus a [few more](./cfg/modules/key_modifiers/keys)).
+You can define all-class, and/or class-specific "shift-modified" versions of any key. But each key needs to be wired-up by doing a few things. I've got a handful of keys already wired-up that I use (the keys listed above, plus a [few more](./cfg/scripts/key_modifiers/keys)).
 
 For example, these are different bindings that I tested my system against:
 
@@ -97,7 +97,7 @@ For example, these are different bindings that I tested my system against:
   </ul>
 </details>
 
-### Weapon-specific settings ([:arrow_upper_right:](https://github.com/rufio-tf2/rufio-config/blob/master/cfg/modules/weapon_slot_settings.cfg))
+### Weapon-specific settings ([:arrow_upper_right:](https://github.com/rufio-tf2/rufio-config/blob/master/cfg/scripts/weapon_slot_settings.cfg))
 
 This lets you load settings per weapon slot. For example, you could:
 
