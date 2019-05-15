@@ -20,9 +20,9 @@ This is not an [FPS config](https://github.com/mastercoms/mastercomfig). This co
 
 - [Additional actions](https://github.com/rufio-tf2/rufio-config/blob/master/cfg/actions.cfg) (e.g. `alertSniper`, `alertSpyOnEngi`)
 - [Improved settings](https://github.com/rufio-tf2/rufio-config/blob/master/cfg/settings.cfg) (e.g. interp, fov, and crosshair)
-- [Modules](./cfg/scripts/README.md): _Shift-modifiers, Weapon settings, Quick loadout switch, Quick class switch_
+- [Scripts](./cfg/scripts/README.md): _Shift-modifiers, Weapon settings, Quick loadout switch, Quick class switch_
 
-You should be able to swap in and out different parts of this config and customize the specifics.
+You can swap in and out different parts of this config and customize the specifics.
 
 ### Shift-modifiers ([:arrow_upper_right:](https://github.com/rufio-tf2/key-modifiers))
 
